@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light navbar-blue p-3">
+    <nav class="navbar navbar-expand-lg bg-light navbar-blue p-1 fixed-top">
         <div class="container">
             <a href="#" class="navbar-brand">
                 <img class="img-fluid" src="baloo-logo.png" alt="" width="50" height="35"> 
@@ -38,9 +38,41 @@
             </div>
         </div>
     </nav>
-    <!-- hero section-->
+    <!-- hero slide section-->
     <section>
-
+        <div id="carouselHero" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active " data-bs-interval="6000">
+                <img src="images/hero3.jpg" class="img-fluid d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="">Over 120 destinations</h1>
+                    <p class="lead">We take you anywhere around the world .</p>
+                  </div>  
+              </div>
+              <div class="carousel-item" data-bs-interval="6000">
+                <img src="images/japan-2014619_960_720.jpg" class="img-fluid d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="">Over 120 destinations</h1>
+                    <p class="lead">We take you anywhere around the world .</p>
+                  </div>  
+              </div>
+              <div class="carousel-item"  data-bs-interval="6000">
+                <img src="images/hero1.jpg" class="img-fluid d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="">Over 120 destinations</h1>
+                    <p class="lead">We take you anywhere around the world .</p>
+                  </div>  
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHero" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHero" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

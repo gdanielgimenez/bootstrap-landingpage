@@ -26,3 +26,14 @@
   width: 250px !important;
   height: 300px !important;
 }
+.book {
+  display: block;
+}
+.booking {
+  background-image: url("images/booking.jpeg");
+  background-size: cover;
+  position: absolute;
+  top: 1450px;
+  left: 0;
+  right: 0;
+}

@@ -22,7 +22,7 @@
   display: block;
 }
 
-.card {
+.ccard {
   width: 250px !important;
   height: 300px !important;
 }
@@ -32,8 +32,37 @@
 .booking {
   background-image: url("images/booking.jpeg");
   background-size: cover;
-  position: absolute;
-  top: 1450px;
+  position: relative;
+  /*top: 1450px;*/
   left: 0;
   right: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.booking::before {
+  background: rgba(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.title {
+  display: block;
+  position: relative;
+  font-weight: 600;
+}
+.book {
+  display: block;
+  position: relative;
+}
+@mediaquery() {
+}
+.ima {
+  height: 100%;
+  width: 100%;
 }

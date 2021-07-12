@@ -21,11 +21,6 @@
   background-size: cover;
   display: block;
 }
-
-.ccard {
-  width: 250px !important;
-  height: 300px !important;
-}
 .book {
   display: block;
 }
@@ -60,7 +55,15 @@
   display: block;
   position: relative;
 }
-@mediaquery() {
+@media (max-width: 900px) {
+  .carousel-item {
+    height: 450px;
+  }
+}
+@media (max-width: 650px) {
+  .carousel-item {
+    height: 300px;
+  }
 }
 .ima {
   height: 100%;

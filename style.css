@@ -69,3 +69,11 @@
   height: 100%;
   width: 100%;
 }
+.butto:hover {
+  background-color: rgb(4, 109, 236) !important;
+  color: white !important;
+  border-color: white;
+}
+.circ {
+  color: white;
+}

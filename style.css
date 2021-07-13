@@ -55,6 +55,16 @@
   display: block;
   position: relative;
 }
+.titcar {
+  animation-name: intro;
+  animation-duration: 2s;
+  position: relative;
+}
+.pcar {
+  animation-name: intro;
+  animation-duration: 3.5s;
+  position: relative;
+}
 @media (max-width: 920px) {
   .ima {
     height: 100%;
@@ -115,4 +125,12 @@
 }
 .circ {
   color: white;
+}
+@keyframes intro {
+  0% {
+    top: 250px;
+  }
+  100% {
+    top: 0px;
+  }
 }
